@@ -118,5 +118,8 @@ Uno de los hallazgos más importantes del análisis es que vender más unidades 
 
 ## Dashboard y modelado de datos
 
+![1.png](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/1.png)
 
+![2.png](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/2.png)
 
+![model.png](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/model.png)

@@ -1,4 +1,4 @@
-# PizzaSales-Excel-PowerBI-SQL
+# Analisis de datos de Pizzería | Excel + PowerBI 
 
 ## Introducción
 

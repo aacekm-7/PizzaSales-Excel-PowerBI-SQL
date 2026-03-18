@@ -116,10 +116,12 @@ El comportamiento de ventas no es completamente uniforme: se observan patrones t
 
 Uno de los hallazgos más importantes del análisis es que vender más unidades no siempre implica generar proporcionalmente más ingresos. Esto es valioso porque introduce una distinción clave entre popularidad del producto y aporte económico real, algo muy importante en análisis de negocio.
 
-## Dashboard y modelado de datos
+## Dashboard
 
 ![1.png](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/1.png)
 
 ![2.png](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/2.png)
+
+## Modelado de datos
 
 ![model.png](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/model.png)

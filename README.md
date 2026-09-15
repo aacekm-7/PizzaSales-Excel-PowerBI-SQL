@@ -1,127 +1,138 @@
-# Analisis de datos de Pizzería | Excel + PowerBI 
+# 🍕 Pizza Sales Analysis | Excel + Power BI
 
-## Introducción
+Análisis de datos comerciales de una pizzería utilizando **Excel, Power Query y Power BI**, con el objetivo de transformar datos transaccionales en información útil para comprender el comportamiento de las ventas, los clientes y el desempeño del portafolio de productos.
 
-Este proyecto consiste en el análisis del dataset “Pizza Sales”, obtenido de Kaggle, con el objetivo de explorar el comportamiento comercial y operativo de una pizzería mediante el uso de Excel y Power BI.
+El proyecto sigue un flujo de trabajo de análisis de datos que incluye **limpieza y transformación de datos en Excel**, análisis exploratorio y construcción de dashboards interactivos en Power BI.
 
-El flujo de trabajo comenzó con la carga, limpieza y transformación de los datos en Excel, donde se preparó el dataset para su análisis, asegurando consistencia en campos clave como fechas, cantidades, precios, categorías, tamaños de producto y horarios de compra. Posteriormente, los datos fueron importados a Power BI, donde se desarrollaron dashboards interactivos enfocados en el análisis de métricas clave de negocio.
+---
 
-##
+## 🎯 Objetivo del proyecto
 
-A través de este proyecto se construyeron dos dashboards complementarios:
+Transformar datos transaccionales de ventas en **insights accionables para la toma de decisiones**, identificando patrones temporales, comportamiento de compra, desempeño de productos y oportunidades comerciales.
 
-Un dashboard orientado al rendimiento comercial y operativo, centrado en ventas totales, cantidad vendida, órdenes, comportamiento temporal, categorías y tamaños.
+El análisis se enfoca principalmente en:
 
-Un dashboard orientado al comportamiento de compra y análisis por producto, centrado en ticket promedio, precios unitarios, volumen por producto, dispersión entre cantidad e ingresos, y distribución de órdenes por período del día.
+- 📈 Evolución de las ventas.
+- 📅 Patrones temporales y estacionalidad.
+- 🍕 Desempeño de productos y categorías.
+- 📦 Preferencias de tamaño.
+- 🕐 Comportamiento según horario.
+- 💰 Ticket promedio y variabilidad de las órdenes.
+- 📊 Relación entre volumen vendido e ingresos.
 
-Este proyecto representa un caso práctico de análisis exploratorio de datos (EDA) y Business Intelligence (BI), aplicando un flujo realista de preparación, análisis y visualización de datos con herramientas ampliamente utilizadas en entornos empresariales.
+---
 
-## Objetivo del proyecto
+## 🛠️ Herramientas utilizadas
 
-El objetivo principal de este proyecto es transformar datos transaccionales en información accionable para la toma de decisiones, permitiendo identificar patrones de ventas, comportamiento de compra y desempeño de productos dentro del negocio.
+| Herramienta | Uso |
+|---|---|
+| **Excel** | Exploración y preparación inicial de los datos |
+| **Power Query** | Limpieza y transformación |
+| **Power BI** | Modelado y visualización |
+| **DAX** | Creación de métricas y KPIs |
 
-## Preguntas que responde este proyecto
+---
 
-Este proyecto ayuda a responder preguntas clave de negocio como:
+## 💎 Principales métricas
 
-¿Cuáles son los meses con mejor y peor desempeño en ventas?
+| KPI | Resultado |
+|---|---:|
+| 💵 Ticket promedio | **16.82** |
+| 📊 Desviación estándar por transacción | **4.44** |
+| 🍕 Promedio de pizzas por orden | **≈ 1 unidad** |
 
-¿Existen patrones estacionales en las ventas?
+> Las métricas presentadas corresponden al período analizado en el dataset.
 
-¿Qué días del mes concentran más compras?
+---
 
-¿Qué productos son los más y menos vendidos?
+## 🔎 Preguntas de negocio
 
-¿Qué tamaños de pizza prefieren más los clientes?
+### 📈 Ventas y tendencias
 
-¿Cómo se comportan las ventas según el período del día?
+- ¿Cómo evolucionan las ventas a lo largo del año?
+- ¿Qué meses y días presentan mayor o menor desempeño?
+- ¿Existen patrones estacionales relevantes?
 
-¿Qué relación existe entre la cantidad vendida y los ingresos?
+### 🍕 Productos y categorías
 
-¿El precio unitario parece influir en la demanda?
+- ¿Qué productos presentan mayor y menor demanda?
+- ¿Qué categorías y tamaños tienen mayor participación?
+- ¿Qué productos generan alto volumen pero menor monetización?
 
-¿Cuál es el ticket promedio por transacción?
+### 🕐 Comportamiento de compra
 
-¿Qué tan variable es el valor de las órdenes?
+- ¿En qué períodos del día se concentra la mayor cantidad de órdenes?
+- ¿Cuál es la cantidad promedio de pizzas por transacción?
+- ¿Existen oportunidades de upselling o promociones?
 
-¿Qué productos generan alto volumen pero menor monetización?
+### 💰 Volumen e ingresos
 
-¿Dónde existen oportunidades de upselling o promociones?
+- ¿Existe relación entre cantidad vendida e ingresos?
+- ¿Los productos más vendidos son también los que generan mayores ingresos?
+- ¿Qué productos presentan diferencias relevantes entre volumen y monetización?
 
-## Objetivos específicos:
+---
 
-- Analizar la evolución de las ventas a lo largo del tiempo.
+## 💡 Principales insights
 
-- Identificar los meses y días con mejor y peor desempeño.
+- 📅 **El día 15 concentra el mayor volumen de ventas**, mostrando un patrón de consumo relevante dentro del mes.
+- 📉 **Febrero presenta una caída importante**, seguida de una recuperación entre marzo y julio.
+- 📈 **Las ventas se desaceleran entre agosto y octubre**, con recuperación hacia el cierre del año, especialmente en diciembre.
+- 🍕 **The Big Meat Pizza es el producto de mayor volumen**, mientras que **The Italian Capocollo Pizza presenta la menor demanda**.
+- 📏 **Los tamaños grandes, especialmente L, concentran gran parte de las ventas**, mostrando una clara preferencia por presentaciones de mayor tamaño.
+- 💰 **Mayor volumen no implica necesariamente mayor monetización**: algunos productos venden muchas unidades pero generan menos ingresos por su menor precio unitario.
+- 🕐 **La tarde concentra la mayor actividad de compra**, mientras que la mañana presenta el menor volumen de órdenes.
+- 💵 **El ticket promedio es de 16.82**, con una desviación estándar de 4.44, mostrando una variabilidad moderada entre transacciones.
+- 📦 **El promedio cercano a una pizza por orden** evidencia un patrón de compra de baja cantidad y presenta una oportunidad para estrategias de **upselling y combos**.
+- 📊 El análisis evidencia **estacionalidad tanto mensual como intramensual**, información útil para planificar promociones, inventario y personal.
 
-- Detectar los productos con mayor y menor demanda.
+---
 
-- Evaluar el impacto del tamaño y la categoría del producto en las ventas.
+## 📊 Dashboard
 
-- Analizar la relación entre volumen vendido e ingresos generados.
+El proyecto cuenta con **dos dashboards complementarios**:
 
-- Comprender los patrones de compra según el momento del día.
+### 📈 Dashboard — Sales & Operations
 
-- Estimar el ticket promedio y la dispersión del valor de las transacciones.
+Enfocado en el rendimiento general del negocio:
 
-- Detectar oportunidades comerciales para promociones, upselling y optimización del portafolio.
+- Ventas.
+- Órdenes.
+- Unidades vendidas.
+- Evolución temporal.
+- Categorías.
+- Tamaños.
+- Comportamiento de las ventas.
 
-## Insights clave del análisis
+![Dashboard de ventas](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/1.png)
 
-1. Concentración de ventas a mitad de mes
+### 🍕 Dashboard — Product & Customer Behavior
 
-Se observa que el día 15 concentra el mayor volumen de ventas dentro del mes, lo que sugiere un posible patrón de consumo asociado a la mitad de mes. Una hipótesis razonable es que este comportamiento pueda estar relacionado con fechas de pago o mayor liquidez del cliente, aunque sería necesario validarlo con información adicional.
+Enfocado en el comportamiento de compra y desempeño de productos:
 
-2. Debilidad en febrero y recuperación entre marzo y julio
+- Ticket promedio.
+- Precio unitario.
+- Volumen por producto.
+- Ingresos por producto.
+- Relación entre cantidad e ingresos.
+- Distribución de órdenes por período del día.
 
-Se observa una caída relevante en febrero, seguida de una recuperación y un período de desempeño estable y favorable entre marzo y julio, lo que indica una etapa de mayor rendimiento comercial dentro del año analizado.
+![Dashboard de productos](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/2.png)
 
-3. Desaceleración entre agosto y octubre, con recuperación al cierre
+---
 
-Entre agosto y octubre se observa una desaceleración en ventas, concentrando algunos de los niveles más bajos del período analizado. Posteriormente, se aprecia una recuperación hacia el cierre del año, especialmente en diciembre.
+## 🧩 Modelado de datos
 
-4. Producto más vendido y producto de menor demanda
+El proyecto utiliza un modelo de datos en Power BI para estructurar la información y facilitar el análisis mediante medidas y relaciones.
 
-The Big Meat Pizza fue el producto con mayor volumen de ventas, mientras que The Italian Capocollo Pizza presentó el menor nivel de demanda dentro del grupo analizado. Esto sugiere oportunidades para revisar estrategias de posicionamiento, visibilidad o promociones del producto de menor rotación.
+![Modelo de datos](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/model.png)
 
-5. Preferencia por tamaños grandes
+---
 
-En la mayoría de las categorías, los tamaños grandes (especialmente L) concentran el mayor volumen de ventas, lo que sugiere una preferencia del cliente por presentaciones de mayor tamaño frente a opciones pequeñas o extra grandes.
+## 📌 Conclusión
 
-6. Relación positiva entre cantidad vendida e ingresos
+El análisis muestra que el comportamiento de la pizzería presenta **patrones temporales, preferencias claras de producto y oportunidades de optimización comercial**.
 
-Existe una relación positiva entre la cantidad vendida y los ingresos generados: a mayor volumen, mayores ventas totales. Sin embargo, The Big Meat Pizza destaca como una excepción relevante, ya que presenta un volumen muy alto de ventas pero una generación de ingresos relativamente menor frente a otros productos con menor cantidad, lo que puede estar asociado a un precio unitario más bajo.
+Entre los principales hallazgos destacan la concentración de ventas a mitad de mes, la preferencia por tamaños grandes, la mayor actividad durante la tarde y la diferencia entre **volumen de ventas e ingresos generados**.
 
-7. Mayor actividad de compra en la tarde
-
-El mayor volumen de órdenes se concentra en la tarde, mientras que la mañana representa el menor nivel de actividad. Esto sugiere una oportunidad para diseñar estrategias de activación en horario matutino, como combos, promociones tempranas o productos adaptados a ese segmento horario.
-
-8. Posible influencia del precio en la demanda
-
-Se observa que varias de las pizzas con mayor volumen de ventas también se encuentran entre las de menor precio unitario, lo que sugiere que el precio podría influir en la demanda. Sin embargo, sería recomendable profundizar este análisis con una comparación más estructurada entre precio, volumen e ingresos por producto.
-
-9. Patrón de compra de baja cantidad por orden
-
-La cantidad promedio de pizzas compradas por transacción es cercana a 1 unidad, lo que sugiere un patrón de compra predominantemente individual o de baja cantidad por orden. Esto abre oportunidades para estrategias de upselling, combos o promociones por volumen.
-
-10. Ticket promedio y variabilidad de las transacciones
-
-El ticket promedio se sitúa en aproximadamente 16.82, con una desviación estándar cercana a 4.44, lo que indica una dispersión moderada en el valor de las transacciones. En términos prácticos, la mayoría de las órdenes tienden a mantenerse relativamente cerca del ticket promedio, aunque existen variaciones relevantes entre compras.
-
-11. El negocio presenta estacionalidad intramensual y estacionalidad mensual
-
-El comportamiento de ventas no es completamente uniforme: se observan patrones tanto dentro del mes (pico en torno al día 15) como a nivel anual (meses fuertes y meses débiles), lo que sugiere que el negocio presenta una estacionalidad de doble nivel que puede ser útil para planificar inventario, personal y campañas promocionales.
-
-13. El dashboard permite diferenciar entre volumen y rentabilidad
-
-Uno de los hallazgos más importantes del análisis es que vender más unidades no siempre implica generar proporcionalmente más ingresos. Esto es valioso porque introduce una distinción clave entre popularidad del producto y aporte económico real, algo muy importante en análisis de negocio.
-
-## Dashboard
-
-![1.png](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/1.png)
-
-![2.png](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/2.png)
-
-## Modelado de datos
-
-![model.png](https://github.com/aacekm-7/PizzaSales-Excel-PowerBI-SQL/blob/2279f2d96b65f2c12011f6a14df55f767a3f8c4d/model.png)
+Estos resultados pueden utilizarse como punto de partida para desarrollar estrategias de **promociones, upselling, planificación de inventario y optimización del portafolio de productos**.
